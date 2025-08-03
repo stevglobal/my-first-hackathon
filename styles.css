@@ -1,50 +1,74 @@
-/* ===== Reset and smooth scroll ===== */
+/* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Smooth scroll effect */
 html {
-  scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+  scroll-behavior: smooth;
 }
 
-/* ===== Body Styling ===== */
+/* Basic body styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #e5d9f2; /* Soft purple background */
+  background-color: #f3f3f3;
   color: #333;
+  line-height: 1.6;
   padding: 20px;
 }
 
-/* ===== Container ===== */
-.container {
-  max-width: 1000px;
-  margin: auto;
-}
-
-/* ===== Header Section ===== */
+/* Centered container */
 header {
   text-align: center;
-  background-color: #6a0dad;
+  background-color: #6a0dad; /* Deep purple */
   color: white;
-  padding: 30px;
+  padding: 30px 20px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-header h1 {
+/* Headings Styling */
+h1 {
   font-size: 32px;
+  margin-bottom: 10px;
 }
 
-header p {
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #6a0dad;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #4b0082;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #3a0066;
+}
+
+h5 {
   font-size: 18px;
+  margin-bottom: 5px;
+  color: #33004d;
+}
+
+/* Navigation Links */
+nav ul {
+  list-style: none;
+  padding: 0;
   margin-top: 10px;
 }
 
-/* ===== Navigation Links ===== */
-nav {
-  margin-top: 20px;
+nav li {
+  display: inline-block;
+  margin: 5px 10px;
 }
 
 nav a {
@@ -52,9 +76,7 @@ nav a {
   background-color: white;
   color: #6a0dad;
   padding: 10px 15px;
-  margin: 5px;
   border-radius: 5px;
-  display: inline-block;
   transition: background-color 0.3s;
 }
 
@@ -62,7 +84,7 @@ nav a:hover {
   background-color: #f3e9ff;
 }
 
-/* ===== Section Styles ===== */
+/* Sections */
 section {
   background-color: white;
   padding: 20px;
@@ -70,24 +92,36 @@ section {
   margin-bottom: 20px;
 }
 
-section h2 {
-  font-size: 24px;
-  color: #6a0dad;
-  margin-bottom: 10px;
-}
-
-section p {
+/* Paragraphs */
+p {
   font-size: 16px;
-  line-height: 1.6;
+  margin: 10px 0;
 }
 
-/* ===== Contact Link ===== */
-#contact a {
+/* Images */
+img {
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* Lists */
+ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Contact Section Link */
+#Contact a {
   color: #6a0dad;
   text-decoration: underline;
 }
 
-/* ===== Footer ===== */
+/* Footer */
 footer {
   text-align: center;
   margin-top: 30px;
@@ -95,18 +129,23 @@ footer {
   color: #666;
 }
 
-/* ===== Responsive Design ===== */
+/* Responsive Design */
 @media (max-width: 600px) {
-  header h1 {
+  h1 {
     font-size: 26px;
   }
 
-  nav a {
-    display: block;
-    margin: 10px auto;
+  h2, h3, h4, h5 {
+    font-size: 18px;
   }
 
-  section h2 {
-    font-size: 20px;
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 }
