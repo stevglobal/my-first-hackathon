@@ -15,12 +15,9 @@ This is a personal portfolio website built as part of my first hackathon with **
 - **Skills**: Technologies and tools I’m learning.
 - **Contact**: How to reach me (Email and GitHub).
 
-## 📷 Screenshot
-*You can add a screenshot of your portfolio website here.*
 
-## 🌍 Live Site
-If deployed, add your GitHub Pages link here:  
-`https://your-username.github.io/
+  #github
+https://github.com/stevglobal/my-first-hackathon.git
 
 ## 📬 Contact
 Email: [stephencharlesjr36@gmail.com](mailto:stephencharlesjr36@gmail.com)  
